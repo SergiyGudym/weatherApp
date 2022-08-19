@@ -1,0 +1,39 @@
+.wrapper {
+  color: #29214a;
+  transition: all 0.3s ease;
+
+  &.dark {
+    color: #ffffff;
+  }
+
+  .iconContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .weatherIcon {
+      height: 100px;
+      width: 100px;
+    }
+  }
+
+  .infoRow {
+    font-family: Montserrat-Medium, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    &.first {
+      margin-top: 0;
+    }
+
+    &.last {
+      margin-bottom: 0;
+    }
+
+    .additionalInfo {
+      font-family: Montserrat-Regular, Arial, Helvetica, sans-serif;
+      color: rgb(141, 139, 139);
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.mobileView {
+    @media screen and (orientation: landscape) {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        height: stretch;
+        height: -moz-available;          /* WebKit-based browsers will ignore this. */
+        height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+        // height: fill-available;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-align: center;
+    }
+
+    @media screen and (orientation: portrait) {
+        display: none;
+    }
+
+    p {
+        margin-bottom: 0;
+        margin-top: 22px;
+
+        font-family: Modern-Era-Bold;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+}
+
+.none {
+    display: none;
+}
+
+.hiddenMobile {
+    @media screen and (orientation: landscape) {
+        display: none;
+    }
+}

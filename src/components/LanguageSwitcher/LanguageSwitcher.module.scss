@@ -1,0 +1,16 @@
+.languagesContainer {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .languageButton {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    outline: inherit;
+    cursor: pointer;
+  }
+}

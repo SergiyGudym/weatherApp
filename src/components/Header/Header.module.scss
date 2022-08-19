@@ -1,0 +1,20 @@
+.wrapper {
+  display: flex;
+  height: 40px;
+  width: 100%;
+
+  .headerContainer {
+    width: calc(100% / 3);
+    display: flex;
+    align-items: center;
+  }
+
+  .middle {
+    justify-content: center;
+  }
+
+  .last {
+    display: flex;
+    justify-content: flex-end;
+  }
+}

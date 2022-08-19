@@ -1,0 +1,10 @@
+.time {
+  font-family: Montserrat-SemiBold, Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: #29214a;
+  transition: all 0.3s ease;
+
+  &.dark {
+    color: #ffffff;
+  }
+}

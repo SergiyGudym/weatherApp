@@ -1,0 +1,19 @@
+.footerWrapper {
+  font-family: Montserrat-Regular, Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+
+  &.dark {
+    color: #ffffff;
+
+    a {
+      color: #ffffff;
+    }
+  }
+
+  a {
+    font-family: Montserrat-Regular, Arial, Helvetica, sans-serif;
+    color: #29214a;
+    text-decoration: none;
+  }
+}
