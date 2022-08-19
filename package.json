@@ -2,6 +2,7 @@
   "name": "new-weather-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://serhiihudym.github.io/web-app",
   "dependencies": {
     "@types/howler": "^2.2.7",
     "@types/node": "^16.11.48",
@@ -22,7 +23,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
