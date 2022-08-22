@@ -41,5 +41,5 @@ export const getWeatherCover = (weather: string) => {
 };
 
 export const getWeatherIcon = (icon: string): string => {
-  return `http://openweathermap.org/img/wn/${icon}.png`;
+  return `https://openweathermap.org/img/wn/${icon}.png`;
 };

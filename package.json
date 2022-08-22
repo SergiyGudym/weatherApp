@@ -2,7 +2,7 @@
   "name": "new-weather-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://serhiihudym.github.io/web-app",
+  "homepage": "https://serhiihudym.github.io/weather-app",
   "dependencies": {
     "@types/howler": "^2.2.7",
     "@types/node": "^16.11.48",
